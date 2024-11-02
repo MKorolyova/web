@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+@mixin main-font($weight, $size){
+    font-size: $size;
+    font-family: "Roboto", sans-serif;
+    font-weight: $weight;
+    font-style: normal;
+}
+
+@mixin header-font($weight, $size){
+    font-size: $size;
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: $weight;
+    font-style: normal;
+}
