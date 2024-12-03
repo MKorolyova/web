@@ -36,4 +36,10 @@ table {
 a {
   text-decoration: none;
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+}
 /*# sourceMappingURL=index.008b0dfe.css.map */

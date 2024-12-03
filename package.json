@@ -7,12 +7,15 @@
     }
   },
   "scripts": {
-    "start": "parcel --no-cache",
-    "build": "parcel build --no-cache",
+    "start": "parcel --no-cache src/*.html",
+    "build": "parcel build --no-cache src/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }

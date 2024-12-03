@@ -6,6 +6,7 @@
     <title>Yoga Studio</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/scss/main.scss"/>
+    <script src ="js/registration.js"></script>
   </head>
 
   <body>
@@ -46,21 +47,24 @@
 
           <div class="input">
               <p class="input_request">Enter your first name</p>
-              <input class="input_field"></input>
+              <input id = "input_first_name" class="input_field"></input>
           </div>
 
           <div class="input">
               <p class="input_request">Enter your second name</p>
-              <input class="input_field"></input>
+              <input id = "input_second_name" class="input_field"></input>
           </div>
 
           <div class="input">
               <p class="input_request">Enter your phone number</p>
-              <input class="input_field"></input>
+              <input id = "input_phone" class="input_field"></input>
           </div>
 
           <p class="input_request">Choose pricing plan</p>
           
+          <div id ="pricing_plans">
+            
+          </div>
           <div class="pricing_plan stroke_green">
 
             <p class="subtitle">Drop-in Class</p>
@@ -108,148 +112,41 @@
 
           <div class="input">
               <p class="input_request">Enter your card number</p>
-              <input class="input_field"></input>
+              <input id = "input_card_number" class="input_field"></input>
           </div>
 
           <div class="input">
               <p class="input_request">Enter your card expiration date</p>
-              <input class="input_field"></input>
+              <input id = "input_expiration_date" class="input_field"></input>
           </div>
 
           <div class="input">
               <p class="input_request">Enter your card secure code</p>
-              <input class="input_field"></input>
+              <input id = "input_secure_code"  class="input_field"></input>
           </div> 
 
-          <p class="input_request">Choose day</p>
+          <div id = "drop_in_class_registration" class="drop_in_class_registration invisible">
+              <p class="input_request">Choose day</p>
 
-          <div id="calendar" class="calendar">
-            <p class="month_title">September</p>
-
-            <div class="month">
-
-              <div class="date">
-                1
+              <div id="calendar" class="calendar"></div>
+    
+              <p class="weather">
+                <b>Weather at this time:</b> <span id = "weather_forecast"></span> 
+              </p>
+    
+              <p class="input_request">Choose time</p>
+    
+              <div id="time" class="time">
+                <div class="hour">8:00</div>
+                <div class="hour">10:00</div>
+                <div class="hour">12:00</div>
+                <div class="hour">14:00</div>
+                <div class="hour">16:00</div>
+                <div class="hour">18:00</div>
               </div>
-              <div class="date">
-                2
-              </div>
-              <div class="date">
-                3
-              </div>
-              <div class="date">
-                4
-              </div>
-              <div class="date">
-                5
-              </div>
-              <div class="date">
-                6
-              </div>
-              <div class="date">
-                7
-              </div>
-              <div class="date">
-                8
-              </div>
-              <div class="date">
-                9
-              </div>
-              <div class="date">
-                10
-              </div>
-              <div class="date">
-                11
-              </div>
-              <div class="date">
-                12
-              </div>
-              <div class="date">
-                13
-              </div>
-              <div class="date">
-                14
-              </div>
-              <div class="date">
-                15
-              </div>
-              <div class="date">
-                16
-              </div>
-              <div class="date">
-                17
-              </div>
-              <div class="date">
-                18
-              </div>
-              <div class="date">
-                19
-              </div>
-              <div class="date">
-                20
-              </div>
-              <div class="date">
-                21
-              </div>
-              <div class="date">
-                22
-              </div>
-              <div class="date">
-                23
-              </div>
-              <div class="date">
-                24
-              </div>
-              <div class="date">
-                25
-              </div>
-              <div class="date">
-                26
-              </div>
-              <div class="date">
-                27
-              </div>
-              <div class="date">
-                28
-              </div>
-              <div class="date">
-                29
-              </div>
-              <div class="date">
-                30
-              </div>
-
-            </div>
           </div>
-
-          <p class="weather">
-            <b>Weather at this time:</b> 30°C Mostly cloudy 
-          </p>
-
-          <p class="input_request">Choose time</p>
-
-          <div id="time" class="time">
-            <div class="hour">
-              8:00
-            </div>
-            <div class="hour">
-              10:00
-            </div>
-            <div class="hour">
-              12:00
-            </div>
-            <div class="hour">
-              14:00
-            </div>
-            <div class="hour">
-              16:00
-            </div>
-            <div class="hour">
-              18:00
-            </div>
-          </div>
-
-          <a href="./index.html" class="button button_dark">Enroll</a>
+          
+          <a  href="./index.html" class="button button_dark" onclick="sendForm(event)">Enroll</a>
 
       </div>
 

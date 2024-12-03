@@ -6,6 +6,7 @@
     <title>Yoga Studio</title>
     <link rel="stylesheet" href="/index.008b0dfe.css">
     <link rel="stylesheet" href="/index.b69010fa.css">
+    <script src="/goalsEnter.5c364033.js"></script>
   </head>
 
     <body>
@@ -35,7 +36,7 @@
         </nav>
   
 
-          <div class="personal_goals_enter_frame section">
+          <div id="personal_goals_frame" class="personal_goals_frame section">
 
                 <h1 class="title">Personal Goals Calculator</h1>
 
@@ -53,20 +54,19 @@
 
                 <div class="input">
                     <p class="input_request">Enter your age</p>
-                    <input class="input_field">
+                    <input id="input_age" type="number" class="input_field">
                 </div>
 
                 <div class="input">
-                    <p class="input_request">Enter your weigh</p>
-                    <input class="input_field">
+                    <p class="input_request">Enter your weight</p>
+                    <input id="input_weight" type="number" class="input_field">
                 </div>
 
                 <div class="input">
-                    <p class="input_request">Enter your hight</p>
-                    <input class="input_field">
+                    <p class="input_request">Enter your height</p>
+                    <input id="input_height" type="number" class="input_field">
                 </div>
-
-                <a href="/goals.html" class="button button_dark">Calculate</a>
+                <button class="button button_dark" onclick="displayRecommendations()">Calculate</button>
           </div>
 
             <footer id="footer_frame" class="footer_frame">

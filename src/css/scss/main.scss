@@ -379,7 +379,17 @@ body > :nth-last-child(3) {
     padding: 15px;
     width: 100%;
     box-sizing: border-box;
-    border-radius: 5px;;
+    border-radius: 5px;
+
+
+    .subtitle{
+        @include main-font(500, 12);
+    }
+
+    .info{
+        @include main-font(200, 12);
+        color: black;
+    }
 }
 
 
@@ -470,12 +480,27 @@ body > :nth-last-child(3) {
     padding: 20px;
     border-radius: 5px;
     border: 2px solid $green;
+
 }
 
 
 .month_title {
-    @include main-font(500, 12);
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto; 
+    gap: 20px;
     text-align: center;
+    .month_name{
+        line-height: 20px;
+        @include main-font(200, 12);
+    }
+    .calendar_prev{
+        @include main-font(200, 20);
+    }
+
+    .calendar_next{
+        @include main-font(200, 20);
+    }
 }
 
 
@@ -496,15 +521,24 @@ body > :nth-last-child(3) {
     cursor: pointer;
 }
 
+.not_active_date{
+    color: grey;
+}
+
 .date:hover {
     border: 2px solid $green;
 }
+
+
 
 .time {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid $green;
 }
 
 .hour {
@@ -521,4 +555,30 @@ body > :nth-last-child(3) {
     border: 2px solid $green;
 }
 
+.weather{
+    @include main-font(200, 12);
+}
 
+.selected{
+    border: 2px solid $green;
+}
+
+.drop_in_class_registration{
+    display: grid;
+    grid-template-rows: auto; 
+    gap: 20px;
+    justify-items: center;
+    align-items: center; 
+    width: 100%;
+
+
+    p{
+        width: 100%;
+        text-align: start;
+    }
+}
+
+.invisible {
+    display: none;
+  }
+  

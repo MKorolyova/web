@@ -413,6 +413,21 @@ body > :nth-last-child(3) {
   display: grid;
 }
 
+.personal_goal .subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.personal_goal .info {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
 .class_type_photo {
   box-sizing: border-box;
   grid-template-rows: auto;
@@ -490,10 +505,25 @@ body > :nth-last-child(3) {
 
 .month_title {
   text-align: center;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+}
+
+.month_title .month_name {
   font-family: Roboto, sans-serif;
   font-size: 12px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.month_title .calendar_prev, .month_title .calendar_next {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
 }
 
 .month {
@@ -516,14 +546,21 @@ body > :nth-last-child(3) {
   transition: all .3s;
 }
 
+.not_active_date {
+  color: gray;
+}
+
 .date:hover {
   border: 2px solid #658352;
 }
 
 .time {
   text-align: center;
+  border: 2px solid #658352;
+  border-radius: 5px;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
+  padding: 20px;
   display: grid;
 }
 
@@ -542,5 +579,33 @@ body > :nth-last-child(3) {
 
 .hour:hover {
   border: 2px solid #658352;
+}
+
+.weather {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.selected {
+  border: 2px solid #658352;
+}
+
+.drop_in_class_registration {
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+}
+
+.drop_in_class_registration p {
+  text-align: start;
+  width: 100%;
+}
+
+.invisible {
+  display: none;
 }
 /*# sourceMappingURL=index.b69010fa.css.map */

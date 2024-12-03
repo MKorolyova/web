@@ -1,0 +1,148 @@
+{
+  "goals": [
+    {
+      "bmi": 18.5,
+      "name": "Muscle strengthening, weight gain, and relaxation.",
+      "classes": [
+        {
+          "background": "background_wight",
+          "subtitle": "Yoga (2 hours per week)",
+          "title": "300–400 calories",
+          "info": "Ideal for gradually strengthening the body and building muscle mass without excessive strain.One session per week is enough to maintain a healthy metabolism."
+        },
+        {
+          "background": "background_light",
+          "subtitle": "Meditation (2 hours per week)",
+          "title": "40–60 calories",
+          "info": "Strengthens the nervous system and helps manage internal stress, which is crucial for maintaining appetite and overall well-being. One session per week is sufficient."
+        },
+        {
+          "background": "background_dark",
+          "subtitle": "Breathwork (2 hour per week)",
+          "title": "50–70 calories",
+          "info": "Improves oxygen exchange and boosts energy, supporting metabolism and general health. One hour per week is enough."
+        }
+      ],
+      "id": "8aa2"
+    },
+    {
+      "bmi": 24.5,
+      "name": "Maintain physical fitness and overall health.",
+      "classes": [
+        {
+          "background": "background_wight",
+          "subtitle": "Yoga (4 hours per week)",
+          "title": "450–600 calories",
+          "info": "Helps keep muscles toned and maintain flexibility. One session per week is sufficient to stay in shape."
+        },
+        {
+          "background": "background_light",
+          "subtitle": "Meditation (2 hours per week)",
+          "title": "40–60 calories",
+          "info": "Reduces stress and improves concentration. One session per week is enough to maintain emotional balance."
+        },
+        {
+          "background": "background_dark",
+          "subtitle": "Breathwork (2 hour per week)",
+          "title": "50–80 calories",
+          "info": "Supports lung function and promotes relaxation. One hour per week is sufficient."
+        }
+      ],
+      "id": "dfe8"
+    },
+    {
+      "bmi": 29.9,
+      "name": "Improve metabolism and promote weight loss.",
+      "classes": [
+        {
+          "background": "background_wight",
+          "subtitle": "Yoga (6 hours per week)",
+          "title": "500–700 calories",
+          "info": "Yoga focuses on burning calories and strengthening muscles. Three hours per week will be effective for weight loss."
+        },
+        {
+          "background": "background_light",
+          "subtitle": "Meditation (2 hours per week)",
+          "title": "40–60 calories",
+          "info": "Helps lower cortisol levels and manage emotional stress. Two hours per week will help improve emotional control."
+        },
+        {
+          "background": "background_dark",
+          "subtitle": "Breathwork (2 hour per week)",
+          "title": "50–80 calories",
+          "info": "Improves respiratory function and helps manage stress, which is important for weight loss. One hour per week is enough."
+        }
+      ],
+      "id": "80d6"
+    },
+    {
+      "bmi": 30,
+      "name": "Improve metabolism and promote weight loss.",
+      "classes": [
+        {
+          "background": "background_wight",
+          "subtitle": "Yoga (10 hours per week)",
+          "title": "600–800 calories ",
+          "info": "Intense yoga sessions help boost metabolism, improve flexibility, and strengthen muscles. Four hours per week are necessary for consistent progress."
+        },
+        {
+          "background": "background_light",
+          "subtitle": "Meditation (2 hours per week)",
+          "title": "40–60 calories",
+          "info": "Reduces emotional tension, improves sleep, and helps manage overeating. Three hours per week will be beneficial."
+        },
+        {
+          "background": "background_dark",
+          "subtitle": "Breathwork (2 hour per week)",
+          "title": "50–80 calories",
+          "info": "Improves lung capacity, promotes relaxation, and helps combat fatigue. Two hours per week are ideal for supporting overall health."
+        }
+      ],
+      "id": "2d68"
+    }
+  ],
+  "forms": [
+    {
+      "id": "094f",
+      "pricingPlan": "Drop-in Class",
+      "date": "25",
+      "month": 11,
+      "year": 2024,
+      "hour": "12:00",
+      "firstName": "aesdfa",
+      "secondName": "aedf",
+      "phone": "erdgvaeg",
+      "cardNumber": "aerg",
+      "expirationDate": "aerg",
+      "secureCode": "earg"
+    },
+    {
+      "id": "3257",
+      "pricingPlan": "Annual Membership",
+      "date": "1",
+      "month": 0,
+      "year": 2025,
+      "hour": "8:00",
+      "firstName": "aaaaaaaaa",
+      "secondName": "aaaaaaaaa",
+      "phone": "aaaaaaaaaaaaaaa",
+      "cardNumber": "aaa",
+      "expirationDate": "aaaaaaa",
+      "secureCode": "aaaaaaaaaaaa"
+    },
+    {
+      "id": "8f77",
+      "pricingPlan": "Drop-in Class",
+      "date": "11",
+      "month": 11,
+      "year": 2024,
+      "hour": "14:00",
+      "firstName": "",
+      "secondName": "",
+      "phone": "",
+      "cardNumber": "",
+      "expirationDate": "",
+      "secureCode": ""
+    }
+  ]
+}

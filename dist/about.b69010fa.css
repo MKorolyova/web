@@ -1,0 +1,546 @@
+@import "https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Roboto:wght@300;400;500&display=swap";
+body {
+  box-sizing: border-box;
+  background-color: #fbf9ef;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 290px;
+  display: flex;
+}
+
+header {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  max-height: 300px;
+  display: flex;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+nav.menu {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px 40px;
+  display: flex;
+}
+
+.menu_frame {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.menu_frame .item {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.section {
+  box-sizing: border-box;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 40px;
+  display: grid;
+}
+
+body > :nth-last-child(3) {
+  padding-bottom: 60px;
+}
+
+.title {
+  text-align: center;
+  color: #000;
+  font-family: Kaisei Tokumin, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.buttons_fast_enroll {
+  box-sizing: border-box;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 10px;
+  width: 100%;
+  display: grid;
+}
+
+.button {
+  border-radius: 5px;
+  place-items: center;
+  width: 70%;
+  min-height: 35px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  display: grid;
+}
+
+.button_dark {
+  color: #fbf9ef;
+  background-color: #658352;
+}
+
+.button_light {
+  color: #658352;
+  box-sizing: border-box;
+  background-color: #fbf9ef;
+  border: 2px solid #658352;
+}
+
+.scroll_photo_frame {
+  box-sizing: border-box;
+  grid-auto-flow: column;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  display: grid;
+}
+
+.scroll_photo_frame .scroll_photo {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.yoga_easy_card {
+  box-sizing: border-box;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+}
+
+.yoga_easy_card .text {
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.yoga_easy_titles {
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+}
+
+.yoga_easy_titles .title {
+  text-align: start;
+}
+
+.yoga_easy_titles .number {
+  color: #000;
+  text-align: end;
+  font-family: Kaisei Tokumin, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.background_dark {
+  background-color: #c9b9a2;
+}
+
+.background_light {
+  background-color: #dfdab4;
+}
+
+.classes_type_photo {
+  width: 100%;
+  height: auto;
+}
+
+.class_type {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.class_type .info {
+  box-sizing: border-box;
+  border-left: 3px solid #000;
+  grid-template-rows: auto;
+  justify-items: start;
+  gap: 20px;
+  width: 100%;
+  padding-left: 10px;
+  display: grid;
+}
+
+.class_type .info .title {
+  text-align: start;
+}
+
+.class_type .info .text {
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.pricing_plan {
+  box-sizing: border-box;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  display: grid;
+}
+
+.pricing_plan .subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pricing_plan .text {
+  padding-left: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  list-style: disc;
+}
+
+.classes_type_frame {
+  border-top: 2px solid #658352;
+  border-bottom: 2px solid #658352;
+}
+
+.stroke_green {
+  box-sizing: border-box;
+  border: 2px solid #658352;
+}
+
+.testimonial {
+  max-width: 500px;
+  display: inline-block;
+  position: relative;
+}
+
+.content {
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: #dfdab4;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  position: relative;
+}
+
+.content .info {
+  grid-template-columns: auto 1fr;
+  place-items: center start;
+  gap: 10px;
+  width: 100%;
+  display: grid;
+}
+
+.content .info .testimonial_photo {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.content .info .name {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.content .text {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.background {
+  z-index: 1;
+  background-color: #c9b9a2;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(3deg);
+}
+
+.contact_item {
+  box-sizing: border-box;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 15px;
+  display: grid;
+}
+
+.contact_item .contact_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact_item .title {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.contact_item .info {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer_frame {
+  box-sizing: border-box;
+  background-color: #658352;
+  width: 100%;
+  padding: 40px;
+}
+
+.footer_frame .info {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: start;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  display: grid;
+}
+
+.footer_frame .info .item {
+  grid-template-rows: auto;
+  gap: 10px;
+  width: 100%;
+  display: grid;
+}
+
+.footer_frame .info .title {
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer_frame .info .text {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.input {
+  grid-template-rows: auto;
+  gap: 10px;
+  width: 100%;
+  display: grid;
+}
+
+.input_request {
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.input_field {
+  background-color: #fbf9ef;
+  border: 2px solid #658352;
+  border-radius: 5px;
+  min-height: 35px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  display: grid;
+}
+
+.personal_goal {
+  box-sizing: border-box;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  display: grid;
+}
+
+.class_type_photo {
+  box-sizing: border-box;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+}
+
+.class_type_photo img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.subclass_type_photo {
+  box-sizing: border-box;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+}
+
+.subclass_type_photo .subclasse_type_icon {
+  border-radius: 5px;
+  width: 30%;
+  height: auto;
+}
+
+.teacher {
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+  width: 100%;
+  display: grid;
+}
+
+.teacher .teacher_photo {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.teacher .info {
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  display: grid;
+}
+
+.teacher .title, .teacher .subtitle {
+  text-align: start;
+}
+
+.teacher:nth-child(2n) .title, .teacher:nth-child(2n) .subtitle {
+  text-align: end;
+}
+
+.about_photo {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.calendar {
+  border: 2px solid #658352;
+  border-radius: 5px;
+  grid-template-rows: auto;
+  place-items: center;
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+}
+
+.month_title {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.month {
+  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.date {
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 2px solid #fbf9ef;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  transition: all .3s;
+}
+
+.date:hover {
+  border: 2px solid #658352;
+}
+
+.time {
+  text-align: center;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.hour {
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 2px solid #fbf9ef;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  transition: all .3s;
+}
+
+.hour:hover {
+  border: 2px solid #658352;
+}
+/*# sourceMappingURL=about.b69010fa.css.map */

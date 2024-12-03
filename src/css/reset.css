@@ -45,3 +45,9 @@ table {
 a {
     text-decoration: none;
 }
+
+button {
+    all: unset;
+    display: inline-block; /* Needed to make it behave like a button again */
+    cursor: pointer;       /* Makes the button visually clickable */
+}
