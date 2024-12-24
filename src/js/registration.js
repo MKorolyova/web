@@ -156,6 +156,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+////////////////////////////////////////////////////////////////////
+
 function sendForm(event) {
 
     event.preventDefault();
