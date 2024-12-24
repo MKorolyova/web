@@ -1,6 +1,17 @@
 <?php
-// This function enqueues the Normalize.css for use. The first parameter is a name for the stylesheet, the second is the URL. Here we
-// use an online version of the css file.
+
+
+function register_my_menus() {
+    register_nav_menus(
+      array(
+        'primary' => __( 'Primary Menu' ),
+        'footer' => __( 'Footer Menu' ),
+       )
+     );
+   }
+   
+add_action( 'init', 'register_my_menus' );
+
 function add_mytheme_styles() {
     wp_enqueue_style( 'reset', get_template_directory_uri() . "/reset.css" );
    wp_enqueue_style( 'normalize-styles', "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");

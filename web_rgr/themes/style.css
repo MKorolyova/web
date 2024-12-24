@@ -43,13 +43,23 @@ body {
 	 justify-content: space-between;
 	 width: 100%;
 }
- .menu_frame .item {
+ .menu_frame .menu-item {
 	 color: black;
 	 text-decoration: underline;
 	 font-size: 12;
 	 font-family: "Roboto", sans-serif;
 	 font-weight: 200;
 	 font-style: normal;
+	 box-sizing: border-box;
+	 padding:  10px;
+
+	  a:visited {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+	  }
+	  
+	  
 }
  .section {
 	 display: grid;

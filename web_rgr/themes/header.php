@@ -20,21 +20,13 @@
         </header>
 
         <nav id="menu" class="menu">
-          <ul id="menu_frame" class="menu_frame">
-            <li class="menu_item">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>/goalsEnter" class="item">Goals</a>
-            </li>
-            <li class="menu_item">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>/classesType" class="item">Classes</a>
-            </li>
-            <li class="menu_item">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>/teachers" class="item">Teachers</a>
-            </li>
-            <li class="menu_item">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>/about" class="item">About</a>
-            </li>
-            <li class="menu_item">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>/contact" class="item">Contact</a>
-            </li>
-          </ul>
+          <?php
+          wp_nav_menu(
+            array(
+              'theme_location' => 'primary',
+              'container' => '',
+              'menu_class' => 'menu_frame'
+            )
+          );
+          ?>
         </nav>
